@@ -1,0 +1,23 @@
+[
+    {
+      "title": "What's On",
+      "route": "/whatson"
+    },
+    {
+      "title": "Coming Soon",
+      "route": "/comingsoon"
+    },
+    {
+      "title": "Sign Up",
+      "route": "/signup"
+    },
+    {
+      "title": "Your Visit",
+      "route": "/yourvisit"
+    },
+    {
+      "title": "Book Tickets",
+      "route": "/booktickets"
+    }
+  ]
+  

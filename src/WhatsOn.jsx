@@ -2,8 +2,8 @@ import React from 'react'
 
 const WhatsOn = () => {
     return (
-        <div>
-            About Us Page
+        <div className='body'>
+            Whats On Page
         </div>
     )
 }
