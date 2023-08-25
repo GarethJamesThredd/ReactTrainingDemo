@@ -211,11 +211,22 @@
   font-size: 15px;
   line-height: 25px;
   letter-spacing: 2px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .signup-body{
   background-color: #333333;
   color: #fff;
+}
+
+.gap-250 {
+  gap: 250px;
+}
+
+.gap-20 {
+  gap: 20px;
 }
 
 .column-singup{
@@ -332,3 +343,21 @@
   flex-direction: column;
   margin: auto;
 }
+
+.submit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+  background-color: darkorange;
+  transform: scale(1.05);
+}
+
