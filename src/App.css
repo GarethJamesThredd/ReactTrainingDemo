@@ -194,6 +194,72 @@
   width: 400px;
 }
 
+
+
+.whats-on {
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.whats-on-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1300px;
+}
+
+.whats-on-card {
+  padding-right: 15px;
+}
+
+.whats-on-image-container {
+  height: 300px;
+  width: 400px;
+}
+
+.whats-on-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.whats-on-synopsis {  
+  display: flex;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  width: 400px;
+}
+
+.whats-on-rating {
+  color: orange;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 30px;
+}
+
+.whats-on-image {
+  height: 300px;
+  width: 400px;
+}
+
+.whats-on-shows {
+  gap: 5px;
+  color: #fff;
+  align-items: center;
+}
+
+.whats-on-book-now {  
+  font-size: 20px;
+  font-weight: 600;
+  color: orange;
+  margin-left: 40px;
+  align-items: center;
+}
+
 .now-showing-card {
   margin: 5px;
   padding: 10px;
