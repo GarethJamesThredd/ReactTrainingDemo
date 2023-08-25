@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import navigationData from "../config/navigationData.json";
 import HeaderItem from "./HeaderItem";
 import cccLogo from "../assets/images/cccLogo.png";
@@ -7,6 +7,11 @@ import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
   const navigate = useNavigate()
+  const [search, setSearch] = useState('')
+
+  const handleSearch = () => {
+    console.log(search)
+  }
 
   const navigateTo = (route) => {
     navigate(route)
@@ -20,7 +25,7 @@ const Header = () => {
           <HeaderItem key={item.route} title={item.title} route={item.route} navigation={navigateTo}/>
         ))}
       </div>
-      <HeaderSearch />
+      <HeaderSearch value={search} onChange={(event) => setSearch(event.target.value)} handleSearch={handleSearch}/>
     </div>
   );
 };

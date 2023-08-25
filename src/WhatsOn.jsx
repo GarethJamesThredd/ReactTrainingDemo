@@ -14,7 +14,7 @@ const WhatsOn = () => {
                 <h2>What's On</h2>
                 <div className='whats-on-card-container'>
                     {movieData.movies.map((item) => (
-                        <MoviePosterDisplay title={item.title} poster={item.poster} url={item.url} review={item.rating} showings={item.showings} summary={item.summary}/>
+                        <MoviePosterDisplay key={item._id} title={item.title} poster={item.poster} url={item.url} review={item.rating} showings={item.showings} summary={item.summary}/>
                     ))}
                     
                 </div>

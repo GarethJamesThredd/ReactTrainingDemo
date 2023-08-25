@@ -209,10 +209,15 @@
   flex-direction: row;
   flex-wrap: wrap;
   max-width: 1300px;
+  justify-content: center;
 }
 
 .whats-on-card {
-  padding-right: 15px;
+  margin: 5px;
+  padding: 10px;
+  background-color: #333333;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .whats-on-image-container {
@@ -258,6 +263,12 @@
   color: orange;
   margin-left: 40px;
   align-items: center;
+  cursor: pointer;
+}
+
+.whats-on-book-now:hover {  
+  color: rgb(199, 129, 0);
+  cursor: pointer;
 }
 
 .now-showing-card {

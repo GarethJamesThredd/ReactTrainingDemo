@@ -11,7 +11,6 @@ const Footer = () => {
 
     return (
         <>
-
             <div className="row dark footer" >
                 <img alt="footerCCCLogo" src={footerCCCLogo} className="footer-logo" />
                 <div >
@@ -39,8 +38,6 @@ const Footer = () => {
             <div className="footer copyright">
                 <p>The Classic Cinema Company Ltd 2020. All rights reserved</p>
             </div>
-            
-
         </>
     )
 }
