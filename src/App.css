@@ -99,3 +99,52 @@
   border-color: #007bff;
   background-color: #999999;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  background-color: #666666;
+}
+
+#homepageImg {
+  height: 414px;
+}
+
+.homepage {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.now-showing {
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.now-showing-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+.now-showing-image-container {
+  height: 300px;
+  width: 400px;
+}
+
+.now-showing-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.now-showing-image {
+  height: 300px;
+  width: 400px;
+}
