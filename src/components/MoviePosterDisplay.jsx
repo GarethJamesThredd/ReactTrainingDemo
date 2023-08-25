@@ -18,7 +18,7 @@ const MoviePosterDisplay = (props) => {
                     return <p key={show}>{show}</p>;
                 })}
             </div>
-            
+            <p className='whats-on-book-now'>Book Now</p>
             </div>
         </div>
 
