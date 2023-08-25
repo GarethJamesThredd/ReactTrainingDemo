@@ -1,6 +1,6 @@
 import React from 'react'
 import MoviePosterDisplay from './components/MoviePosterDisplay'
-import homepageImg from './assets/images/homePage.png'
+import homepageImg from './assets/images/joinTheClub.png'
 import movieData from "./movies.json";
 
 const WhatsOn = () => {
