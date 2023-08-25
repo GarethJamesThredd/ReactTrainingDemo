@@ -59,7 +59,7 @@
   justify-items: center;
   justify-content: space-around;
   background-color: #333333;
-  color: #999999;
+  color: #fff;
 }
 
 .logo {
@@ -74,7 +74,7 @@
 }
 
 .headerLinks:hover {
-  color: #fff;
+  color: #999999;
 }
 
 .text-input {
