@@ -1,20 +1,25 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter, Link, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import WhatsOn from "./WhatsOn";
-import Header from "./Header";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div>
-      <Header />
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<div>Home Page</div>} />
-          <Route path="/whatson" element={<WhatsOn />} />
-        </Routes>
+        <nav>
+          <Header />
+          <Routes>
+            <Route path="/" element={<div>Home Page</div>} />
+            <Route path="/comingsoon" element={<div>Coming Soon</div>} />
+            <Route path="/yourvisit" element={<div>Your Visit</div>} />
+            <Route path="/booktickets" element={<div>Book Tickets</div>} />
+            <Route path="/signup" element={<div>Sign Up</div>} />
+            <Route path="/whatson" element={<WhatsOn />} />
+          </Routes>
+          {/* <Footer /> */}
+        </nav>
       </BrowserRouter>
-      {/* <Footer /> */}
     </div>
   );
 }
