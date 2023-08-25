@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import WhatsOn from "./WhatsOn";
 import Header from "./components/Header";
+import Homepage from "./components/Homepage";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <nav>
           <Header />
           <Routes>
-            <Route path="/" element={<div>Home Page</div>} />
+            <Route path="/" element={<Homepage />} />
             <Route path="/comingsoon" element={<div>Coming Soon</div>} />
             <Route path="/yourvisit" element={<div>Your Visit</div>} />
             <Route path="/booktickets" element={<div>Book Tickets</div>} />
