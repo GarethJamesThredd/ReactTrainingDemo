@@ -102,7 +102,7 @@
 
 .footer {
   height: flex; 
-  background-color: #333; 
+  background-color: #515151; 
   color: white;
   padding: 20px; 
   text-align: start; 
@@ -198,7 +198,31 @@
   width: 400px;
 }
 
+.signup-image {
+  height: 660px;
+}
 
+.signup-paragraph{
+  
+  margin-top: 50px;
+  padding-bottom: 100px;
+  align-self: center;
+  max-width: 380px;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+.signup-body{
+  background-color: #333333;
+  color: #fff;
+}
+
+.column-singup{
+  margin-left: 400px;
+  line-height: 30px;
+  
+}
 
 .whats-on {
   color: orange;

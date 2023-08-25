@@ -11,7 +11,8 @@ const Footer = () => {
 
     return (
         <>
-            <div className="row dark footer" >
+
+            <div className="row footer" >
                 <img alt="footerCCCLogo" src={footerCCCLogo} className="footer-logo" />
                 <div >
                     <h3 className="footer-font">MORE INFO</h3>
