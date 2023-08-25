@@ -105,8 +105,12 @@
   background-color: #333; 
   color: white;
   padding: 20px; 
-  text-align: center; 
+  text-align: start; 
   justify-content: space-between;
+}
+
+.footer-font {
+  color: orange;
 }
 
 .footer-logo{
@@ -123,11 +127,11 @@
   font-family: "Helvetica";
   line-height: 5px;
   align-self: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .paragraph{
-  max-width: 60px;
+  max-width: 80px;
   text-align: left;
   flex-wrap: wrap;
   margin-left: 30px;
