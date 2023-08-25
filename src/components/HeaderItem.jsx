@@ -1,18 +1,18 @@
 import React from 'react';
-import {useNavigate} from 'react-router-dom'
 
-const HeaderItem = ({title, route}) => {
-  const navigate = useNavigate()
+const HeaderItem = (props) => {
 
-  const navigateTo = (route) => {
-    navigate(route)
+  const handleClick = () => {
+    const route = props.route;
+    props.navigation(route);
   }
 
   return (
     <div className='headerLinks'>
-      <h2 onClick={()=> {navigateTo(route)}}>{title}</h2>
+      <h2 onClick={handleClick}>{props.title}</h2>
     </div>
   );
 }
+
 
 export default HeaderItem;
