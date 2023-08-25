@@ -7,7 +7,7 @@ const WhatsOn = () => {
         <div> 
             <h1>What is On</h1>
             <div>
-                <MoviePosterDisplay title="The Pool" poster="" rating="12A" showings={['12:30', '14:00', '20:00']} summary="suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis"/>
+                <MoviePosterDisplay title="The Pool" poster="assets/posters/180x260.png" rating="12A" showings={['12:30', '14:00', '20:00']} summary="suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis"/>
             </div>
         </div>
         
