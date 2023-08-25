@@ -39,8 +39,6 @@ const Footer = () => {
             <div className="footer copyright">
                 <p>The Classic Cinema Company Ltd 2020. All rights reserved</p>
             </div>
-            
-
         </>
     )
 }

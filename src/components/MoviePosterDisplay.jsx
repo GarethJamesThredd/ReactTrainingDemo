@@ -3,25 +3,26 @@ import React from 'react';
 const MoviePosterDisplay = (props) => {
 
     return(
-        
-        <div className="grid-item">
-            <div className="product">
-                <div className="details">
-                    <img src={props.poster} alt={props.title} width="300"/>
-                    <h1><a href={props.url}>{props.title}</a></h1>
-                    <h2>Synopsis</h2>
-                    <p>{props.summary}</p>
-                    <h2>Review</h2>
-                    <p>{props.review}</p>
-                    <h2>Showings</h2>
-                    {props.showings.map(title => {
-                        return <p key={title}>{title}</p>;
-                    })}
-                    <br />
-                    <br />
-                </div>
+        <>
+        <div className='whats-on-card'>
+            <div className='whats-on-image-container'>
+                <img src={props.poster} alt={props.title} className='whats-on-image' />
+            </div>
+            <p className='whats-on-title'>{props.title.toUpperCase()}</p>
+            <p className="whats-on-synopsis">{props.summary}</p>
+            
+            <div className="row"> 
+            <p className='whats-on-rating'>{props.review}</p>
+            <div className="row whats-on-shows">
+                {props.showings.map(show => {
+                    return <p key={show}>{show}</p>;
+                })}
+            </div>
+            <p className='whats-on-book-now'>Book Now</p>
             </div>
         </div>
+
+        </>
     );
 };
 
