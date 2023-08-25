@@ -49,6 +49,7 @@
 
 .body {
   background-color: #666666;
+  color: #fff;
   height: 100vh;
 }
 
@@ -69,7 +70,7 @@
 .headerLinks {
   text-decoration: none;
   cursor: pointer;
-  padding: 25px;
+  margin: 25px;
   user-select: none;
 }
 

@@ -5,9 +5,9 @@ import cccLogo from "../assets/images/cccLogo.png";
 import HeaderSearch from "./HeaderSearch";
 const Header = () => {
   return (
-    <div className="row dark">
+    <div className="row dark header">
       <img alt="cccLogo" src={cccLogo} className="logo" />
-      <div className="row header">
+      <div className="row">
         {navigationData.map((item) => (
           <HeaderItem key={item.route} title={item.title} route={item.route} />
         ))}
