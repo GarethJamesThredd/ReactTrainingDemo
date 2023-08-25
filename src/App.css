@@ -199,7 +199,7 @@
 }
 
 .signup-paragraph{
-  margin-left: 100px;
+  
   margin-top: 50px;
   padding-bottom: 100px;
   align-self: center;
@@ -214,6 +214,11 @@
   color: #fff;
 }
 
+.column-singup{
+  margin-left: 400px;
+  line-height: 30px;
+  
+}
 
 .whats-on {
   color: orange;
