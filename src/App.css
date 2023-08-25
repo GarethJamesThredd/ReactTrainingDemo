@@ -174,7 +174,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 1300px;
+  justify-content: center;
 }
 
 .now-showing-image-container {
@@ -257,4 +258,38 @@
   color: orange;
   margin-left: 40px;
   align-items: center;
+}
+
+.now-showing-card {
+  margin: 5px;
+  padding: 10px;
+  background-color: #333333;
+  border-radius: 3px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.now-showing-card:hover {
+  cursor: pointer;
+  .now-showing-title {
+    color: #999999;
+  }
+}
+
+.snack-image {
+  height: 400px;
+  max-width: 550px;
+}
+
+.divider {
+  max-width: 550px;
+  margin: 10px;
+  line-height: 30px;
+}
+
+.homepage-content {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
 }
