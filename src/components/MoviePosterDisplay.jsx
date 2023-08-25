@@ -8,7 +8,7 @@ const MoviePosterDisplay = (props) => {
             <div className='whats-on-image-container'>
                 <img src={props.poster} alt={props.title} className='whats-on-image' />
             </div>
-            <p className='whats-on-title'>{props.title}</p>
+            <p className='whats-on-title'>{props.title.toUpperCase()}</p>
             <p className="whats-on-synopsis">{props.summary}</p>
             
             <div className="row"> 
