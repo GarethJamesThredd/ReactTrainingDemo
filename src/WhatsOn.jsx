@@ -1,13 +1,17 @@
 import React from 'react'
 import MoviePosterDisplay from './components/MoviePosterDisplay'
+import movieData from "./movies.json";
 
 const WhatsOn = () => {
     
     return (
         <div className='body'>
             <h1>Whats On Page</h1>
-            <div>
-                <MoviePosterDisplay title="The Pool" poster="assets/posters/180x260.png" rating="12A" showings={['12:30', '14:00', '20:00']} summary="suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis"/>
+            <div class="grid-container">
+                {movieData.movies.map((item) => (
+                    <MoviePosterDisplay title={item.title} poster={item.poster} url={item.url} review={item.rating} showings={item.showings} summary={item.summary}/>
+                
+                ))}
             </div>
         </div>
         

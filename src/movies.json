@@ -3,7 +3,7 @@
         {
             "_id": "a5fe1131fef4488db4f93443fb9486ef",
             "title": "The Pool",
-            "poster": "",
+            "poster": "/assets/posters/Captain Flask and the Lunchbox Kid.jpg",
             "summary": "suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis",
             "rating": "12A",
             "showings": [
@@ -11,12 +11,13 @@
                 "15:30",
                 "20:00"
             ],
+            "url": "",
             "whatsOn": true
         },
         {
             "_id": "83deb8114edd45dea6171545bbf6c925",
             "title": "Fleeting Bloom",
-            "poster": "",
+            "poster": "/assets/posters/Jurassic Park.jpg",
             "summary": "suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis",
             "rating": "U",
             "showings": [
@@ -24,12 +25,13 @@
                 "15:30",
                 "20:00"
             ],
+            "url": "",
             "whatsOn": true
         },
         {
             "_id": "f70595c140304107badbf456baf3ab94",
             "title": "Welcome to the swamp",
-            "poster": "",
+            "poster": "/assets/posters/Hair Today - Everyday Life with the Daleks.jpg",
             "summary": "suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis",
             "rating": "15",
             "showings": [
@@ -37,12 +39,13 @@
                 "15:30",
                 "20:00"
             ],
+            "url": "",
             "whatsOn": true
         },
         {
             "_id": "1be23857224245119fc15727d0979a0c",
             "title": "Francesca",
-            "poster": "",
+            "poster": "/assets/posters/Hair Today - Everyday Life with the Daleks.jpg",
             "summary": "suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis",
             "rating": "PG",
             "showings": [
@@ -50,12 +53,13 @@
                 "15:30",
                 "20:00"
             ],
+            "url": "",
             "whatsOn": true
         },
         {
             "_id": "0cdf33bffadd48e5b158da2a6f8ab3ef",
             "title": "Postcards from Paris",
-            "poster": "",
+            "poster": "/assets/posters/Hair Today - Everyday Life with the Daleks.jpg",
             "summary": "suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis",
             "rating": "12A",
             "showings": [
@@ -63,12 +67,13 @@
                 "15:30",
                 "20:00"
             ],
+            "url": "",
             "whatsOn": true
         },
         {
             "_id": "4d5e8135a8a84c9db1deee2a2df4f0e0",
             "title": "Fortropolis",
-            "poster": "",
+            "poster": "/assets/posters/Hair Today - Everyday Life with the Daleks.jpg",
             "summary": "suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis",
             "rating": "PG",
             "showings": [
@@ -76,6 +81,7 @@
                 "15:30",
                 "20:00"
             ],
+            "url": "",
             "whatsOn": true
         }
     ]
